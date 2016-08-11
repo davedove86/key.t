@@ -1,5 +1,5 @@
 # Build settings
-# baseurl: /key.t
+baseurl: /key.t
 markdown: kramdown
 permalink: pretty
 
