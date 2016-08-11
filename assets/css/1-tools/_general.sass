@@ -14,12 +14,19 @@ body
   height: 100%
 
   img
-    max-width: 50%
+    max-width: 100%
 
   a
     color: #fff
     list-style-type: none
     text-decoration: none
+
+  span
+    color: #50E3C2
+
+  .center
+    h1, p, img
+      margin: 0 auto
 
 // BACK TO TOP CTA
 
@@ -67,6 +74,8 @@ body
   display: flex
   flex-direction: row
   justify-content: center
+  align-items: center
+  margin: 0 auto
 
 .order-first
   order: -1
@@ -74,10 +83,18 @@ body
 // COLUMNS
 
 .col-2
-  max-width: 640px
+  max-width: 500px
   box-sizing: border-box
-  width: 100%
-  padding: 0 10px
+  // width: 100%
+  padding: 20px
+  // margin: 0 auto
+
+  h1
+    font:
+      size: 65px
+      weight: bold
+    text-transform: uppercase
+    line-height: normal
 
 // RESPONSIVE COLUMNS
 
