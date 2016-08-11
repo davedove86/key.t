@@ -19,7 +19,8 @@
       li
         display: inline-block
         padding: 0 20px
-        font-size: 12px
+        font-size: 15px
+        text-transform: uppercase
 
     .social-icons
       display: inline-flex
@@ -28,11 +29,31 @@
         padding: 0 5px
 
   .title
-    font-size: 36px
+    max-width: 900px
+    padding: 200px 0 0 200px
+
+    p
+      font:
+        size: 36px
+        weight: 200
 
     span
       color: #50E3C2
 
   .scroll
-    width: 24px
-    height: 36px
+    padding: 250px 0
+    text-align: center
+
+    img
+      width: 24px
+      height: 36px
+
+  @media (max-width: 880px)
+
+    .title
+      padding: 0 10px
+      text-align: center
+      margin: 0 auto
+
+    .scroll
+      padding: 100px 0

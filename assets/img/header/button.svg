@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="141px" height="32px" viewBox="0 0 141 32" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 39.1 (31720) - http://www.bohemiancoding.com/sketch -->
+    <title>Button </title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <rect id="path-1" x="0" y="0" width="141" height="32" rx="16"></rect>
+        <mask id="mask-2" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="141" height="32" fill="white">
+            <use xlink:href="#path-1"></use>
+        </mask>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Home-page" transform="translate(-202.000000, -505.000000)">
+            <g id="Header-(Home)">
+                <g id="Button-" transform="translate(202.000000, 505.000000)">
+                    <text id="LEARN-MORE" font-family="HelveticaNeue, Helvetica Neue" font-size="12" font-weight="normal" letter-spacing="0.336666673" fill="#FFFFFF">
+                        <tspan x="14" y="20">LEARN MORE</tspan>
+                    </text>
+                    <path d="M126.999414,16.8646629 C127.005137,17.0108885 126.955632,17.158831 126.843745,17.2710041 C126.818849,17.2956135 126.781935,17.2890319 126.754178,17.3073459 L119.931366,23.5664316 C119.718466,23.7790453 119.373362,23.7790453 119.160462,23.5664316 C118.947562,23.3535316 118.947562,23.0084278 119.160462,22.7949555 L125.628155,16.8629459 L119.15989,10.9300779 C118.946703,10.717178 118.946703,10.3717879 119.15989,10.1594603 C119.372789,9.94684656 119.717893,9.94684656 119.930793,10.1594603 L126.751889,16.4156844 C126.780791,16.435143 126.818849,16.4285614 126.844317,16.4543155 C126.957349,16.5667747 127.005995,16.7164342 126.999414,16.8646629 L126.999414,16.8646629 Z" id="Shape" fill="#50E3C2"></path>
+                    <path d="M122.999414,16.8646629 C123.005137,17.0108885 122.955632,17.158831 122.843745,17.2710041 C122.818849,17.2956135 122.781935,17.2890319 122.754178,17.3073459 L115.931366,23.5664316 C115.718466,23.7790453 115.373362,23.7790453 115.160462,23.5664316 C114.947562,23.3535316 114.947562,23.0084278 115.160462,22.7949555 L121.628155,16.8629459 L115.15989,10.9300779 C114.946703,10.717178 114.946703,10.3717879 115.15989,10.1594603 C115.372789,9.94684656 115.717893,9.94684656 115.930793,10.1594603 L122.751889,16.4156844 C122.780791,16.435143 122.818849,16.4285614 122.844317,16.4543155 C122.957349,16.5667747 123.005995,16.7164342 122.999414,16.8646629 L122.999414,16.8646629 Z" id="Shape" fill="#50E3C2"></path>
+                    <use id="Rectangle-6" stroke="#FFFFFF" mask="url(#mask-2)" stroke-width="4" xlink:href="#path-1"></use>
+                </g>
+                <g id="Content" transform="translate(30.000000, 357.000000)"></g>
+            </g>
+        </g>
+    </g>
+</svg>
