@@ -7,7 +7,7 @@ body
   line-height: 1.6
   font:
     size: 14px
-    family: 'helvetica neue'
+    family: 'HelveticaNeue-Medium'
   color: #fff
   -webkit-font-smoothing: antialiased
   -webkit-text-size-adjust: 100%
@@ -76,6 +76,7 @@ body
   justify-content: center
   align-items: center
   margin: 0 auto
+  +clearfix
 
 .order-first
   order: -1
@@ -98,6 +99,11 @@ body
 
 // RESPONSIVE COLUMNS
 
-@media (max-width: 640px)
+@media (max-width: 870px)
+
+  .col-2
+    margin: 0 auto
+    text-align: center
+
   .flex
     display: block

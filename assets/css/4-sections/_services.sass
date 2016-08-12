@@ -1,0 +1,58 @@
+#services
+  background: linear-gradient(0deg, rgba(48,71,105,0.00), #000000 100%), url('../img/services/services-bg-1.png')
+    size: cover
+    repeat: no-repeat
+    position: center
+  padding: 190px 0
+
+  p
+    color: #000
+
+  .services-wrap
+    max-width: 700px
+
+  .services-content
+    background:
+      image: url('../img/services/services-display-bg.png')
+      size: auto
+      repeat: no-repeat
+      position: center
+
+    li
+      display: table-cell
+      padding: 20px 0
+
+    img
+      +size(52px)
+
+    h2
+      text-transform: uppercase
+      color: #000
+      font-size: 24px
+      margin: 0
+
+    p
+      color: #000
+      font-size: 12px
+
+@media (max-width: 870px)
+
+  #services
+    padding: 10px 0
+
+    .services-content
+
+      ul
+        padding: 0
+
+      li
+        padding: 10px
+
+      img
+        +size(30px)
+
+      h2
+        font-size: 20px
+
+      p
+        font-size: 10px
