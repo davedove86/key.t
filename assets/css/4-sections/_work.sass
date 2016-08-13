@@ -1,0 +1,26 @@
+.work-wrap
+
+  ul
+    display: flex
+    flex-wrap: wrap
+    flex-direction: row
+
+    li
+      list-style-type: none
+      display: flex
+      flex-wrap: wrap
+      +size(200px)
+      margin: 0
+
+      img
+        max-width: 100%
+
+@media (max-width: 960px)
+
+  .work-flex
+    display: block
+    margin: 0 auto
+    text-align: center
+
+    .col-2
+      margin: 0 auto
